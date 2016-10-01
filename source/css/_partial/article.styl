@@ -11,6 +11,9 @@
   margin: 30px;
   margin-bottom: 5px;
   position: relative;
+  border-radius: 12px;
+  box-shadow -12px 12px 12px #8ebbdb;
+  -webkit-border-radius: 12px;
   background: article-color;
   -webkit-transition: all 0.2s ease-in;
   &.show{
@@ -23,7 +26,10 @@
     visibility: hidden;
   }
   img{
+    box-shadow 8px 8px 8px #8ebbdb;
+    -webkit-border-radius: 12px;
     max-width: 100%;
+    max-height: 100%;
     margin: .5em auto;
   }
 }
@@ -93,7 +99,7 @@
     &:before{
       display: inline-block;
       content: "“";
-      font-family: serif;
+      font-family:  Consolas, Microsoft YaHei, font-family, serif;
       font-size: 30px;
       float: left;
       margin: 4px 4px 0 -12px;
@@ -113,21 +119,23 @@
   -o-transition: color 0.3s;
   transition: color 0.3s;
   &:hover{
-    color: #B0A0AA;
+    color: #0088CC;
   }
 }
 .article-inner{
   position: relative;
+  border-radius: 12px;
   margin-bottom: 0px;
   padding-bottom: .5em;
   word-break: break-word;
   box-shadow: 3px 2px 8px rgba(0,0,0, .07);
 }
 .article-header{
-  border-left: 6px solid #eee;
+  border-left: 8px solid #0088CC;
+  border-top-left-radius: 5px;
   padding: 15px 8.2em 15px 25px;
   &:hover {
-    border-left: 5px solid #9c9;
+    border-left: 5px solid #8ebbdb;
   };
 }
 .article-info {
@@ -298,6 +306,8 @@
     height: 2.5em;
     margin: 1em auto;
     font-size 1rem
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
     background: rgba(158, 188, 226, i-opacity);
     &:hover {
         background: #93b5e0;
@@ -318,19 +328,19 @@
 #article-nav-older {
     padding-right: 1em;
     text-align: right;
-    &::after { 
+    &::after {
         padding-left:0.5em;
         content:"→";
         color: white;
         font-weight: bold;
-        font-family: Calibri;
+        font-family: Consolas, Microsoft YaHei, yahei consolas hyrid, serif;
     }
 }
 
 #article-nav-newer {
     padding-left: 1em;
     text-align: left;
-    &::before { 
+    &::before {
         padding-right:0.5em;
         content:"←";
         color: white;

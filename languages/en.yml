@@ -39,11 +39,11 @@ tooltip:
   jump2comments: Comments
   go2bottom: Go to Bottom
   copyPath: "Copy Article's Link & Author"
-  Hexo: "A fast, simple & powerful blog framework"
-  Yelee: Another simple and elegant theme for Hexo
+  Hexo: "Powerful Blog Framework"
+  Yelee: An Elegant Theme for Hexo
 
 tag_cloud:
   already: " "
-  categories: Categories, 
+  categories: Categories,
   total: " "
   tags: Tags

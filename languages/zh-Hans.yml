@@ -4,7 +4,7 @@ index:
   tags: 标签
   friends: 友情链接
   about: 关于我
-  more: 阅读全文
+  more: more
   copy: 复制
 
 toc:
@@ -22,14 +22,14 @@ copyright_info:
   date: 发布时间
   updated: 最后更新
   url: 原始链接
-  from: "原文:"
-  by: "作者:"
+  from: "原文: "
+  by: "作者: "
   license: 许可协议
-  cc: "署名-非商用-相同方式共享 4.0"
-  notice: "转载请保留原文链接及作者。"
+  cc: "CC BY-NC-SA 4.0"
+  notice: "转载注明作者及原始链接"
 
 tooltip:
-  tocButton: 点击按钮隐藏或者显示文章目录
+  tocButton: 文章目录
   back2home: 回到主页
   nextPost: 下一篇
   prePost: 上一篇
@@ -38,8 +38,8 @@ tooltip:
   jump2comments: 查看评论
   go2bottom: 转到底部
   copyPath: 点击复制文章链接
-  Hexo: "快速、简洁且高效的博客框架"
-  Yelee: 简而不减 Hexo 双栏博客主题
+  Hexo: "Powerful Blog Framework"
+  Yelee: 简而不减-博客主题
 
 tag_cloud:
   already: 已有
