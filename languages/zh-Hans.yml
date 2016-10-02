@@ -13,8 +13,8 @@ toc:
   show: 显示目录
 
 visit_counter:
-  site: 本站到访数
   page: 本页阅读量
+  site: 站点访问量
 
 copyright_info:
   title: 本文标题
