@@ -127,7 +127,7 @@ toc:
   on: true
   list_number: true # 目录序号
   max_depth: 6  # 1 - 6 (h1-h6) 目录最大级数
-  nowrap: false # Keep title on same line | 目录标题不换行
+  nowrap: true # Keep title on same line | 目录标题不换行
 
 # 是否开启主页及加载头像时的动画效果
 # Animation in Homepage and Loading avatar
@@ -236,9 +236,9 @@ baidu_tongji: a368d89b0fb146bd737dc9e2c158260a
 # 不蒜子网站计数设置
 # http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
-  on: false
-  site_visit: false
-  page_visit: false
+  on: true
+  site_visit: true
+  page_visit: true
 
 # GitHub Repo Widget
 # https://github.com/hustcc/GitHub-Repo-Widget.js
